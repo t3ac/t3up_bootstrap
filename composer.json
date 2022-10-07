@@ -17,27 +17,13 @@
     "gridelements"
   ],
   "repositories": [
-	  {
-		"type": "package",
-		"package": {
-		  "name": "t3ac/t3up_bootstrap",
-		  "version": "0.0.1",
-		  "source": {
-			"type" : "git",
-			"url" : "https://github.com/t3ac/t3up_bootstrap.git",
-			"reference" : "master"
-		  },
-		  "dist": {
-			"url": "https://github.com/t3ac/t3up_bootstrap/archive/refs/heads/main.zip",
-			"type": "zip"
-		  }
-		}
-	  }
-	],
+    {
+	"type": "vcs",
+	"url" : "https://github.com/t3ac/t3up_bootstrap.git"
+    }
+  ],
   "require": {
-	"t3ac/t3ac/t3up_bootstrap": "*",
-    "typo3/cms-core": "^9.5 || ^10.4",
-    "gridelementsteam/gridelements": "^9.7 || ^10"
+	  "t3ac/t3up_bootstrap": "*"
   },
   "autoload": {
     "psr-4": {
