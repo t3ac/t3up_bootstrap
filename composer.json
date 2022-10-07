@@ -23,7 +23,7 @@
     }
   ],
   "require": {
-	  "t3ac/t3up_bootstrap": "^1.0"
+	  "t3ac/t3up_bootstrap": "*"
   },
   "autoload": {
     "psr-4": {
