@@ -1,0 +1,31 @@
+.t3upcontentslider   {                       margin-bottom: 4rem;
+  .Stil0{
+     .carousel-indicators                    {padding: 0;}
+  }
+  
+  .Stil1{
+     .carousel-indicators                    {justify-content: flex-end; padding: 0;}
+  }
+  
+  .Stil2{
+     .carousel-indicators                    {top:auto; bottom: -3rem;}
+     .carousel-indicators li                 {background-color: #666; }
+  }
+  
+  .Stil4{
+     .carousel-indicators                    {padding: 0;}   
+     .carousel-indicators li                 {width: 13px; height: 13px; display: block; border: 1px solid rgba(255, 255, 255, 0.7); background: rgba(255, 255, 255, 0.5); cursor: pointer;  text-indent: 9999px; border-radius: 20px;}
+  }
+  
+  .Stil5{
+     .carousel-indicators                    {justify-content: flex-end; padding: 0;}  
+     .carousel-indicators li                 {width: 13px; height: 13px; display: block; border: 1px solid rgba(255, 255, 255, 0.7); background: rgba(255, 255, 255, 0.5); cursor: pointer;  text-indent: 9999px; border-radius: 20px;}
+  } 
+  
+  .Stil6{
+     .carousel-indicators                    {top:auto; bottom: -3rem;}
+     .carousel-indicators li                 {width: 13px; height: 13px; display: block; border: 1px solid rgba(50, 50, 50, 0.7); background-color: #666; cursor: pointer;  text-indent: 9999px; border-radius: 20px;}
+  }  
+  
+  
+}  

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.sheet.mediumDevices</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <mdCol1 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                                <default>col-md-3</default>
+                            </config>
+                        </TCEforms>
+                    </mdCol1>
+                    <mdCol2 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                                <default>col-md-3</default>
+                            </config>
+                        </TCEforms>
+                    </mdCol2>
+                    <mdCol3 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                                <default>col-md-3</default>
+                            </config>
+                        </TCEforms>
+                    </mdCol3>
+                    <mdCol4 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col4</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                                <default>col-md-3</default>
+                            </config>
+                        </TCEforms>
+                    </mdCol4>
+                </el>
+            </ROOT>
+        </sDEF>
+        <smallDevices>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.sheet.smallDevices</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <smCol1 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </smCol1>
+                    <smCol2 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </smCol2>
+                    <smCol3 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </smCol3>
+                    <smCol4 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col4</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </smCol4>
+                </el>
+            </ROOT>
+        </smallDevices>
+        <extraSmallDevices>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.sheet.extraSmallDevices</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <Col1 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                                <default>col-12</default>
+                            </config>
+                        </TCEforms>
+                    </Col1>
+                    <Col2 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                                <default>col-12</default>
+                            </config>
+                        </TCEforms>
+                    </Col2>
+                    <Col3 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                                <default>col-12</default>
+                            </config>
+                        </TCEforms>
+                    </Col3>
+                    <Col4 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col4</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                                <default>col-12</default>
+                            </config>
+                        </TCEforms>
+                    </Col4>
+                </el>
+            </ROOT>
+        </extraSmallDevices>
+        <largeDevices>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.sheet.largeDevices</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <lgCol1 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </lgCol1>
+                    <lgCol2 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </lgCol2>
+                    <lgCol3 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </lgCol3>
+                    <lgCol4 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col4</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>T3up\T3upBootstrap\Controller\FlexFormController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </lgCol4>
+                </el>
+            </ROOT>
+        </largeDevices>
+         <designClasses>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.sheet.designClasses</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+   					<bgColor>
+            			<TCEforms type="array">
+                			<label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.bgcolor</label>
+                             <config type="array">
+                                <type>input</type> 
+								<size>10</size> 
+								<renderType>colorpicker</renderType> 
+								<default></default> 
+                            </config>
+		            	</TCEforms>
+        			</bgColor>  
+					<bgImage>
+                        <TCEforms>
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.bgimage</label>>
+                            <config>
+                                <type>inline</type>
+                                <maxitems>1</maxitems>
+                                <foreign_table>sys_file_reference</foreign_table>
+                                <foreign_table_field>tablenames</foreign_table_field>
+                                <foreign_label>uid_local</foreign_label>
+                                <foreign_sortby>sorting_foreign</foreign_sortby>
+                                <foreign_field>uid_foreign</foreign_field>
+                                <foreign_selector>uid_local</foreign_selector>
+                                <foreign_selector_fieldTcaOverride>
+                                    <config>
+                                        <appearance>
+                                            <elementBrowserType>file</elementBrowserType>
+                                            <elementBrowserAllowed>gif,jpg,jpeg,png,svg</elementBrowserAllowed>
+                                        </appearance>
+                                    </config>
+                                </foreign_selector_fieldTcaOverride>
+                                <foreign_types type="array">
+                                    <numIndex index="0">
+                                        <showitem>--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,--palette--;;filePalette</showitem>
+                                    </numIndex>
+                                    <numIndex index="2">
+                                        <showitem>--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,--palette--;;filePalette</showitem>
+                                    </numIndex>
+                                </foreign_types>
+                                <foreign_match_fields>
+                                    <fieldname>image</fieldname> <!-- This is the field name -->
+                                </foreign_match_fields>
+                                <appearance type="array">
+                                    <newRecordLinkAddTitle>1</newRecordLinkAddTitle>
+                                    <headerThumbnail>
+                                        <field>uid_local</field>
+                                        <height>64</height>
+                                        <width>64</width>
+                                    </headerThumbnail>
+                                    <enabledControls>
+                                        <info>1</info>
+                                        <new>0</new>
+                                        <dragdrop>0</dragdrop>
+                                        <sort>1</sort>
+                                        <hide>0</hide>
+                                        <delete>1</delete>
+                                        <localize>1</localize>
+                                    </enabledControls>
+                                    <createNewRelationLinkTitle>LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:images.addFileReference</createNewRelationLinkTitle>
+                                </appearance>
+                                <behaviour>
+                                    <localizationMode>select</localizationMode>
+                                    <localizeChildrenAtParentLocalization>1</localizeChildrenAtParentLocalization>
+                                </behaviour>
+                                <overrideChildTca>
+                                    <columns type="array">
+                                        <uid_local type="array">
+                                            <config type="array">
+                                                <appearance type="array">
+                                                    <elementBrowserType>file</elementBrowserType>
+                                                    <elementBrowserAllowed>jpg,png,svg,jpeg,gif</elementBrowserAllowed>
+                                                </appearance>
+                                            </config>
+                                        </uid_local>
+                                    </columns>
+                                    <types type="array">
+                                        <numIndex index="2">
+                                            <showitem>--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,--palette--;;filePalette</showitem>
+                                        </numIndex>
+                                    </types>
+                                </overrideChildTca>
+                            </config>
+                        </TCEforms>
+                    </bgImage>    
+   					<bigImage>
+            			<TCEforms type="array">
+                			<label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.bigImage</label>
+								<config>							
+									<type>check</type>
+							           <items type="array">
+							               <numIndex index="0" type="array">
+							                   <numIndex index="0"></numIndex>
+							                   <numIndex index="1">1</numIndex>
+							               </numIndex>
+							           </items>
+							           <default></default>
+								</config>
+		            	</TCEforms>
+        			</bigImage>
+                </el>
+            </ROOT>
+        </designClasses>  
+  		<rowClasses>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:sheet.rowClasses</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <valign type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.rowValign</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.none</numIndex>
+                                        <numIndex index="1"></numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowValign.alignItemsStart</numIndex>
+                                        <numIndex index="1">align-items-start</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowValign.alignItemsCenter</numIndex>
+                                        <numIndex index="1">align-items-center</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowValign.alignItemsEnd</numIndex>
+                                        <numIndex index="1">align-items-end</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowValign.alignItemsBaseline</numIndex>
+                                        <numIndex index="1">align-items-baseline</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowValign.alignItemsStretch</numIndex>
+                                        <numIndex index="1">align-items-stretch</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>align-items-stretch</default>
+                            </config>
+                        </TCEforms>
+                    </valign>
+                    <halign type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.rowHalign</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.none</numIndex>
+                                        <numIndex index="1"></numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowHalign.justifyContentStart</numIndex>
+                                        <numIndex index="1">justify-content-start</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowHalign.justifyContentCenter</numIndex>
+                                        <numIndex index="1">justify-content-center</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowHalign.justifyContentEnd</numIndex>
+                                        <numIndex index="1">justify-content-end</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowHalign.justifyContentAround</numIndex>
+                                        <numIndex index="1">justify-content-around</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.rowHalign.justifyContentBetween</numIndex>
+                                        <numIndex index="1">justify-content-between</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </halign>
+                </el>
+            </ROOT>
+        </rowClasses>  
+        <customClasses>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.sheet.customClasses</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <col41class type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </col41class>
+                    <col42class type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </col42class> 
+                    <col43class> 
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </col43class>
+                    <col44class type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.col4</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </col44class> 
+                </el>
+            </ROOT>
+        </customClasses> 
+    </sheets>
+</T3DataStructure>

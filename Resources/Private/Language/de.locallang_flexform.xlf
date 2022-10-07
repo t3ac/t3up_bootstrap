@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2018-10-1" product-name="hdabootstrap">
+        <header/>
+        <body>
+        
+            <trans-unit id="container.title" xml:space="preserve" approved="yes">
+				<source>Container</source>
+				<target state="translated">Container</target>
+			</trans-unit>    
+            <trans-unit id="container.description" xml:space="preserve">
+				<source>Container, for different elements.</source>
+				<target state="translated">Reiner Container (kein Padding, etc.) zum Gruppieren verschiedener Inhalte.</target>
+			</trans-unit>  
+            <trans-unit id="2cols.title" xml:space="preserve" approved="yes">
+				<source>2 columns</source>
+				<target state="translated">2 Spalten</target>
+			</trans-unit>
+            <trans-unit id="2cols.description" xml:space="preserve">
+				<source>Inserts a 2-columns grid for content. The width of each column may be set for different screen sizes.</source>
+				<target state="translated">2-spaltiges Raster, Jede kann individuell in der Breite angepast werden.</target>
+			</trans-unit>
+            <trans-unit id="3cols.title" xml:space="preserve" approved="yes">
+				<source>3 columns</source>
+				<target state="translated">3 Spalten</target>
+			</trans-unit>
+            <trans-unit id="3cols.description" xml:space="preserve">
+				<source>Inserts a 3-columns grid for content.</source>
+				<target state="translated">3-spaltiges Raster, Jede kann individuell in der Breite angepast werden.</target>
+			</trans-unit>
+            <trans-unit id="4cols.title" xml:space="preserve" approved="yes">
+				<source>4 columns</source>
+				<target state="translated">4 Spalten</target>
+			</trans-unit>
+            <trans-unit id="4cols.description" xml:space="preserve">
+				<source>Inserts a 4-columns grid for content.</source>
+				<target state="translated">4-spaltiges Raster, Jede kann individuell in der Breite angepast werden.</target>
+			</trans-unit>
+			
+			
+            <trans-unit id="tabsSimple.title" xml:space="preserve" approved="yes">
+				<source>Tabs from content</source>
+				<target state="translated">Tabs aus dem Inhalt</target>
+			</trans-unit>
+            <trans-unit id="tabsSimple.description" xml:space="preserve">
+ 				<source>Each content element within the grid represents a tab. The title fields are used as tab titles.</source>
+				<target state="translated">Tabulator Element, jedes Inhaltselement wird zu einem Reiter.</target>
+			</trans-unit>
+			
+			
+            <trans-unit id="grid.label.tabTitle1" xml:space="preserve">
+                <source>Title 1. tab</source>
+                <target state="translated">Titel des ersten Tabs</target>
+            </trans-unit>           
+            <trans-unit id="grid.label.tabTitle2" xml:space="preserve">
+                <source>Title 2. tab</source>
+                <target state="translated">Titel des zweiten Tabs</target>
+            </trans-unit>   
+            <trans-unit id="grid.label.tabTitle3" xml:space="preserve">
+                <source>Title 3. tab</source>
+                <target state="translated">Titel des dritten Tabs</target>
+            </trans-unit>           
+            <trans-unit id="grid.label.tabTitle4" xml:space="preserve">
+                <source>Title 4. tab</source>
+                <target state="translated">Titel des vierten Tabs</target>
+            </trans-unit>   
+			
+			
+            <trans-unit id="tabs2.title" xml:space="preserve" approved="yes">
+				<source>Tabs (2)</source>
+				<target state="translated">Tabs (2)</target>
+			</trans-unit>
+            <trans-unit id="tabs2.description" xml:space="preserve">
+				<source>For multiple content elements in one tab. 2 or less tabs.</source>
+				<target state="translated">Tabulator Element, auf 2 Reiter festgelegt. Jeder Tab kann diverse inhaltselemente besitzen.</target>
+			</trans-unit>
+            <trans-unit id="tabs3.title" xml:space="preserve" approved="yes">
+				<source>Tabs (3)</source>
+				<target state="translated">Tabs (3)</target>
+			</trans-unit>
+            <trans-unit id="tabs3.description" xml:space="preserve">
+				<source>For multiple content elements in one tab. 3 or less tabs.</source>
+				<target state="translated">Tabulator Element, auf 3 Reiter festgelegt. Jeder Tab kann diverse inhaltselemente besitzen.</target>
+			</trans-unit>	
+            <trans-unit id="tabs4.title" xml:space="preserve" approved="yes">
+				<source>Tabs (4)</source>
+				<target state="translated">Tabs (4)</target>
+			</trans-unit>
+            <trans-unit id="tabs4.description" xml:space="preserve">
+				<source>For multiple content elements in one tab. 4 or less tabs.</source>
+				<target state="translated">Tabulator Element, auf 4 Reiter festgelegt. Jeder Tab kann diverse inhaltselemente besitzen.</target>
+			</trans-unit>
+		
+			
+            <trans-unit id="accordion.title" xml:space="preserve" approved="yes">
+				<source>Accordion from content</source>
+				<target state="translated">Accordion aus dem Inhalt</target>
+			</trans-unit>
+            <trans-unit id="accordion.description" xml:space="preserve">
+				<source>Each content element within the grid represents an accordion element. The title fields are used as accordion bar titles.</source>
+				<target state="translated">Jedes Element ist dynamisch, drei verschiedene Modi sind verfügbar: 1. nur jeweils eins kann geöffnet sein, 2. dito, aber das erste ist bereits geöffnet. 3. individuelle Auswahl.</target>
+			</trans-unit>
+            <trans-unit id="slider.title" xml:space="preserve" approved="yes">
+				<source>Content slider</source>
+				<target state="translated">Slider aus dem Inhalt</target>
+			</trans-unit>
+            <trans-unit id="slider.description" xml:space="preserve">
+				<source>Each content element within the grid represents a slider element.</source>
+				<target state="translated">Jedes Inhaltselement ist Teil eines Flexsliders. Wenn Javascript und CSS nicht vorgeladen sind, dann müssen die Konstanten im Bereich "plugin.hdabootstrap" aktiviert werden!</target>
+			</trans-unit>
+
+            <trans-unit id="celayout.leftColumn" xml:space="preserve" approved="yes">
+				<source>Left column</source>
+				<target state="translated">Spalte links</target>
+            </trans-unit>
+            <trans-unit id="celayout.rightColumn" xml:space="preserve" approved="yes">
+				<source>Right column</source>
+				<target state="translated">Spalte rechts</target>
+            </trans-unit>
+            <trans-unit id="celayout.centerColumn" xml:space="preserve" approved="yes">
+				<source>Center column</source>
+				<target state="translated">Mittlere Spalte</target>
+            </trans-unit>
+            <trans-unit id="celayout.column2" xml:space="preserve" approved="yes">
+				<source>2nd column</source><target state="translated">2. Spalte</target>
+            </trans-unit>
+            <trans-unit id="celayout.column3" xml:space="preserve" approved="yes">
+				<source>3rd column</source><target state="translated">3. Spalte</target>
+            </trans-unit>
+            <trans-unit id="celayout.tabElements" xml:space="preserve" approved="yes">
+				<source>Tab elements</source><target state="translated">Tab Elemente</target>
+            </trans-unit>
+            <trans-unit id="celayout.tab1" xml:space="preserve" approved="yes">
+				<source>Tab 1</source>
+				<target state="translated">Inhalt Tab 1</target>
+            </trans-unit>
+            <trans-unit id="celayout.tab2" xml:space="preserve" approved="yes">
+				<source>Tab 2</source>
+				<target state="translated">Inhalt Tab 2</target>
+            </trans-unit>
+            <trans-unit id="celayout.tab3" xml:space="preserve" approved="yes">
+				<source>Tab 3</source>
+				<target state="translated">Inhalt Tab 3</target>
+            </trans-unit>
+            <trans-unit id="celayout.tab4" xml:space="preserve" approved="yes">
+				<source>Tab 4</source>
+				<target state="translated">Inhalt Tab 4</target>
+            </trans-unit>
+            <trans-unit id="celayout.accordionElements" xml:space="preserve" approved="yes">
+				<source>Accordion elements</source><target state="translated">Accordion Elemente</target>
+            </trans-unit>
+            <trans-unit id="celayout.sliderElements" xml:space="preserve" approved="yes">
+				<source>Slider elements</source><target state="translated">Slider Elemente</target>
+            </trans-unit>
+            <trans-unit id="celayout.columnElements" xml:space="preserve" approved="yes">
+				<source>Column elements</source><target state="translated">Spaltenelemente</target>
+            </trans-unit>
+
+            <trans-unit id="grid.sheet.mediumDevices" xml:space="preserve" approved="yes">
+				<source>iPad (md)</source>
+				<target state="translated">iPad (md)</target>
+			</trans-unit>
+            <trans-unit id="grid.sheet.smallDevices" xml:space="preserve" approved="yes">
+		  		<source>Small devices</source>
+				<target state="translated">Kleine Tablets</target>
+		  	</trans-unit>
+            <trans-unit id="grid.sheet.extraSmallDevices" xml:space="preserve" approved="yes">
+				<source>Extra small</source>
+				<target state="translated">Mobilgeräte</target>
+			</trans-unit>
+            <trans-unit id="grid.sheet.largeDevices" xml:space="preserve" approved="yes">
+				<source>Large</source>
+				<target state="translated">Große Screens</target>
+			</trans-unit>
+            <trans-unit id="grid.sheet.extraLargeDevices" xml:space="preserve" approved="yes">
+				<source>Extra Large</source>
+			     <target state="translated">Extragroße Screens</target>
+	       </trans-unit>
+	       
+            <trans-unit id="grid.sheet.customClasses" xml:space="preserve" approved="yes">
+				<source>Custom classes</source>
+				<target state="translated">Weitere class-Attribute</target>
+			</trans-unit>
+            <trans-unit id="grid.label.col1" xml:space="preserve" approved="yes">
+				<source>Column 1</source>
+				<target state="translated">Spalte 1</target>
+			</trans-unit>
+            <trans-unit id="grid.label.col2" xml:space="preserve" approved="yes">
+				<source>Column 2</source>
+				<target state="translated">Spalte 2</target>
+			</trans-unit>
+            <trans-unit id="grid.label.col3" xml:space="preserve" approved="yes">
+				<source>Column 3</source>
+				<target state="translated">Spalte 3</target>
+			</trans-unit>
+            <trans-unit id="grid.label.col4" xml:space="preserve" approved="yes">
+				<source>Column 4</source>
+				<target state="translated">Spalte 4</target>
+			</trans-unit>
+            <trans-unit id="grid.label.moreWidth" xml:space="preserve" approved="yes">
+				<source>More width</source>
+				<target state="translated">Weitere Breite</target>
+			</trans-unit>
+            <trans-unit id="grid.label.notset" xml:space="preserve" approved="yes">
+				<source>not set</source>
+				<target state="translated">nicht gesetzt</target>
+			</trans-unit>
+            <trans-unit id="grid.label.moreOptions" xml:space="preserve" approved="yes">
+				<source>More options</source>
+				<target state="translated">Weitere Optionen</target>
+			</trans-unit>
+            <trans-unit id="grid.label.special" xml:space="preserve" approved="yes">
+				<source>Special</source>
+				<target state="translated">Spezial</target>
+			</trans-unit>
+            <trans-unit id="grid.label.hidden" xml:space="preserve" approved="yes">
+				<source>hidden</source>
+				<target state="translated">verstecken</target>
+			</trans-unit>
+            <trans-unit id="grid.label.visible" xml:space="preserve" approved="yes">
+				<source>only visible</source>
+				<target state="translated">Nur diese anzeigen</target>
+			</trans-unit>
+            <trans-unit id="grid.label.variableWidth" xml:space="preserve">
+				<source>variable width</source>
+				<target state="translated">variable Breite</target>
+			</trans-unit>
+            <trans-unit id="grid.label.bgimage" xml:space="preserve">
+				<source>Background image</source>
+				<target state="translated">Hintergrundbild</target>
+			</trans-unit>
+            <trans-unit id="grid.label.bigImage" xml:space="preserve">
+				<source>Display a fullsize image</source>
+				<target state="translated">Vollbild Hintergrund</target>
+			</trans-unit>
+			
+            <trans-unit id="grid.sheet.animation" xml:space="preserve" approved="yes">
+				<source>Animation</source>
+				<target state="translated">Animation</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.controls" xml:space="preserve" approved="yes">
+				<source>Controls</source>
+				<target state="translated">Steuerelemente</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.options" xml:space="preserve" approved="yes">
+				<source>Options</source>
+				<target state="translated">Optionen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.direction" xml:space="preserve" approved="yes">
+				<source>Direction</source>
+				<target state="translated">Richtung</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.direction.1" xml:space="preserve" approved="yes">
+				<source>vertical</source>
+				<target state="translated">vertikal</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.direction.2" xml:space="preserve" approved="yes">
+				<source>horizontal</source>
+				<target state="translated">horizontal</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.speed" xml:space="preserve" approved="yes">
+				<source>Slideshow speed</source>
+				<target state="translated">Geschwindigkeit (in ms)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animation" xml:space="preserve" approved="yes">
+				<source>Animation</source>
+				<target state="translated">Animation</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animation.1" xml:space="preserve" approved="yes">
+				<source>fade</source>
+				<target state="translated">ausblenden</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animation.2" xml:space="preserve" approved="yes">
+				<source>slide</source>
+				<target state="translated">slide</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animationspeed" xml:space="preserve" approved="yes">
+				<source>Animation speed</source>
+				<target state="translated">Dauer der Animation (in ms)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.style" xml:space="preserve" approved="yes">
+				<source>Style</source>
+				<target state="translated">Stil</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.showcontrolnav" xml:space="preserve" approved="yes">
+				<source>Show control navigation</source>
+				<target state="translated">Links für jedes Slide anzeigen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.showdirnav" xml:space="preserve" approved="yes">
+				<source>Show direction navigation</source>
+				<target state="translated">Zurück/vorwärts anzeigen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.showpause" xml:space="preserve" approved="yes">
+				<source>Show pause button</source>
+				<target state="translated">Play/Pause anzeigen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.pauseonhover" xml:space="preserve" approved="yes">
+				<source>Pause on hover</source>
+				<target state="translated">Pausieren wenn Maus über dem Slider</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.initdelay" xml:space="preserve" approved="yes">
+				<source>Init delay</source>
+				<target state="translated">Initiale Verzögerung (in ms)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.randomize" xml:space="preserve" approved="yes">
+				<source>Randomize</source>
+				<target state="translated">Slides mischen vor der Anzeige</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animationloop" xml:space="preserve" approved="yes">
+				<source>Loop</source>
+				<target state="translated">Endlosschleife</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.reverse" xml:space="preserve" approved="yes">
+				<source>Reverse order</source>
+				<target state="translated">Reihenfolge rückwärts</target>
+			</trans-unit>
+
+            <trans-unit id="grid.sheet.layout" xml:space="preserve" approved="yes">
+				<source>Layout</source>
+				<target state="translated">Layout</target>
+			</trans-unit>
+			<trans-unit id="grid.label.style" xml:space="preserve" approved="yes">
+				<source>Style</source>
+				<target state="translated">Stil</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabStyle" xml:space="preserve" approved="yes">
+				<source>Style</source>
+				<target state="translated">Stil</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabStyle.0" xml:space="preserve" approved="yes">
+				<source>Style 1</source>
+				<target state="translated">Stil 1</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabStyle.1" xml:space="preserve" approved="yes">
+				<source>Style 2</source>
+				<target state="translated">Stil 2</target>
+			</trans-unit>
+            <trans-unit id="grid.label.tabStyle.2" xml:space="preserve">
+                <source>Style 3</source>
+                <target state="translated">Stil 3</target>  
+            </trans-unit>
+            <trans-unit id="grid.label.tabStyle.3" xml:space="preserve">
+                <source>Style 4</source>
+                <target state="translated">Stil 4</target>  
+            </trans-unit>
+
+
+			/* Flex classes */
+			<trans-unit id="sheet.rowClasses">
+			     <source>Flex-classes</source>
+			     <target state="translated">Flex-Klassen</target>
+		    </trans-unit>			
+			<trans-unit id="grid.label.rowValign">
+			     <source>Vertical-alignments</source>
+			     <target state="translated">Vertikale Ausrichtung</target>
+		    </trans-unit>
+			<trans-unit id="grid.rowValign.alignItemsStart">
+			     <source>Vertical-alignment:  top</source>
+			     <target state="translated">Oben</target>
+		    </trans-unit> 
+			<trans-unit id="grid.rowValign.alignItemsCenter">
+			     <source>Vertical-alignment:  center</source>
+			     <target state="translated">Zentriert</target>
+		    </trans-unit>		    
+			<trans-unit id="grid.rowValign.alignItemsEnd">
+				<source>Vertical-alignment:  bottom</source>
+				<target state="translated">Unten</target>
+		    </trans-unit>		  		    
+			<trans-unit id="grid.rowValign.alignItemsBaseline">
+			     <source>Vertical-alignment:  baseline</source>
+			     <target state="translated">Grundlinie</target>
+		    </trans-unit>	
+			<trans-unit id="grid.rowValign.alignItemsStretch">
+			     <source>Vertical-alignment:  streching the contaent</source>
+			     <target state="translated">Alle aufspreizen</target>
+		    </trans-unit>			    
+
+			<trans-unit id="grid.label.rowHalign">
+			     <source>Horizontal-alignments</source>
+			     <target state="translated">Horizontale Ausrichtung</target>
+		    </trans-unit>
+			<trans-unit id="grid.rowHalign.justifyContentStart">
+			     <source>Horizontal-alignment:  Left</source>
+			     <target state="translated">Links</target>
+		    </trans-unit>		  		    
+			<trans-unit id="grid.rowHalign.justifyContentCenter">
+			     <source>Horizontal-alignment:  center</source>
+			     <target state="translated">Zentriert</target>
+		    </trans-unit>	
+			<trans-unit id="grid.rowHalign.justifyContentEnd">
+			     <source>Horizontal-alignment:  right</source>
+			     <target state="translated">Rechts</target>
+		    </trans-unit>	
+			<trans-unit id="grid.rowHalign.justifyContentAround">
+			     <source>Horizontal-alignment:  space around</source>
+			     <target state="translated">Gleiche Abstände</target>
+		    </trans-unit>		  		    
+			<trans-unit id="grid.rowHalign.justifyContentBetween">
+			     <source>Horizontal-alignment:  stretch left to right</source>
+			     <target state="translated">Auf Breite verteilt</target>
+		    </trans-unit>
+
+			/* -- Sheets  --------------------------------- */                                	
+                                        			
+			<trans-unit id="sheet.options">
+			     <source>Options</source>
+			     <target state="translated">Optionen</target>
+		    </trans-unit>
+			<trans-unit id="sheet.controls">
+			     <source>Controls</source>
+			     <target state="translated">Einstellungen</target>
+		    </trans-unit>	
+
+			/* -- Controls --------------------------------- */
+			
+			<trans-unit id="slider.autostart">
+			     <source>Autostart</source>
+			     <target state="translated">Automatischer Start</target>
+		    </trans-unit>
+			<trans-unit id="slider.animation">
+			     <source>Type of presentation</source>
+			     <target state="translated">Einstellungen</target>
+		    </trans-unit>
+			<trans-unit id="slider.animation.1">
+			     <source>slide</source>
+			     <target state="translated">Verschieben/slide</target>
+		    </trans-unit>
+			<trans-unit id="slider.animation.2">
+			     <source>fade</source>
+			     <target state="translated">Einblenden</target>
+		    </trans-unit>
+			<trans-unit id="slider.sliderwidth">
+			     <source>Width of the slider,0 means 100%</source>
+			     <target state="translated">Breite des Sliders, 0 entspricht 100%! </target>
+		    </trans-unit>	
+			<trans-unit id="slider.slideshowheightshow">
+			     <source>Show setting options for the height</source>
+			     <target state="translated">Zeige Einstellmöglichkeiten für die Höhe</target>
+		    </trans-unit>	
+			<trans-unit id="slider.sliderheight">
+			     <source>Height of the slider (default 40vH)</source>
+			     <target state="translated">Höhe des Sliders, in % der Anzeigenhöhe, Vorgabe 40%</target>
+		    </trans-unit>
+			<trans-unit id="slider.sliderminheight">
+			     <source>Min-Height of the slider (default 30vH)</source>
+			     <target state="translated">Mindesthöhe des Sliders, in % der Anzeigenhöhe, Vorgabe 30%</target>
+		    </trans-unit>		    
+			<trans-unit id="slider.controlNav">
+			     <source>Show controls</source>
+			     <target state="translated">Anzeige der der Kontroll-Punkte bzw. -Linien</target>
+		    </trans-unit>
+			<trans-unit id="slider.directionNav">
+			     <source>Create navigation for previous/next navigation</source>
+			     <target state="translated">Anzeige Pfeiltasten</target>
+		    </trans-unit>
+			<trans-unit id="slider.sliderSpeed">
+			     <source>Speed in mil. Sec.</source>
+			     <target state="translated">Anzeigegeschwindigkeit in Millisekunden</target>
+		    </trans-unit>
+			<trans-unit id="slider.animationLoop">
+			     <source>Animation Loop</source>
+			     <target state="translated">Wiederholen</target>
+		    </trans-unit>	 
+			<trans-unit id="slideshow.navColor">
+			     <source>Navcolor</source>
+			     <target state="translated">Farbe der Navigationselemente</target>
+		    </trans-unit>	
+			<trans-unit id="slideshow.navbackgroundcolor">
+			     <source>Nav Backgroundcolor</source>
+			     <target state="translated">Hintergrundfarbe</target>
+		    </trans-unit>			    
+			<trans-unit id="slideshow.navOpacity">
+			     <source>Durchsichtigkeit des Hintergrunds</source>
+		   </trans-unit>
+
+
+
+		    /* Standard */
+			
+            <trans-unit id="grid.label.none" xml:space="preserve" approved="yes">
+				<source>none</source>
+				<target state="translated">keine</target>
+			</trans-unit>
+			<trans-unit id="grid.label.yes" xml:space="preserve" approved="yes">
+				<source>yes</source>
+				<target state="translated">ja</target>
+			</trans-unit>
+			<trans-unit id="grid.label.no" xml:space="preserve" approved="yes">
+				<source>no</source>
+				<target state="translated">nein</target>
+			</trans-unit>
+
+        </body>
+    </file>
+</xliff>

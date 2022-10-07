@@ -1,0 +1,71 @@
+<html	xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"> 
+
+	<f:layout name="Default"/>
+	
+    <f:section name="Main">
+        <f:if condition="{children}">
+            <f:if condition="{data.container}">
+                <f:then>
+                    <div class="container">
+                        <f:render section="Slider" arguments="{_all}"/>  
+                    </div> 
+                </f:then>
+                <f:else>
+                    <f:render section="Slider" arguments="{_all}"/>  
+                 </f:else>
+            </f:if>     
+        </f:if>
+    </f:section>
+    
+	<f:section name="Slider">
+		<div id="slideshow{data.uid}" class="t3up_slider carousel slide {data.flexform_animation} sliderstyle-{bootstrapslider}" 
+			data-wrap="{data.flexform_animationLoop}" 
+			{f:if(condition: '{data.flexform_slideshow}', then: ' data-ride="carousel"   data-bs-ride="carousel"')}   
+			style="max-width: {f:if(condition:data.flexform_slideshowwidth, then:'data.flexform_slideshowwidth}vw;' ,else:'100%;')}"
+			data-interval="{data.flexform_slideshowSpeed}">
+
+		   	<f:for each="{children}" as="columns" key="rowNumber">
+                <f:if condition="{columns.101}">
+
+			   		<!-- Indicators -->
+			   		<f:if condition="{data.flexform_controlNav}">
+					    <ol class="carousel-indicators">
+					    	<f:for each="{columns.101}" as="child" iteration="iteration">
+	    						<li type="button" data-target="#slideshow{data.uid}"  data-bs-target="#slideshow{data.uid}"   data-slide-to="{iteration.index}" data-bs-slide-to="{iteration.index}"  class="{f:if(condition: '{iteration.isFirst}', then: 'active')}"   ></li>	    	
+							</f:for>
+					    </ol> 	
+				    </f:if>
+
+					<div class="carousel-inner"  {f:if(condition:'{data.flexform_slideshowheightshow}',then:'style="max-height: {data.flexform_slideshowheight}vh"')}>
+	                    <f:for each="{columns.101}" as="child" iteration="iteration">
+	                         <div data-bs-interval="{data.flexform_slideshowSpeed}"
+	                         class="carousel-item {f:if(condition: '{iteration.isFirst}', then: ' active')}" 
+	                          style="
+                              {f:if(condition:'{data.flexform_slideshowwidth}',    then:'max-width:  {data.flexform_slideshowheight}vw;' ,else:'max-width: 100%;')}
+	                          {f:if(condition:'{data.flexform_slideshowheightshow}',   then:'max-height: {data.flexform_slideshowheight}vh;')}
+	                          {f:if(condition:'{data.flexform_slideshowheightshow}',then:'min-height: {data.flexform_slideshowminheight}vh;')}">
+	                           <f:render partial="Child" arguments="{data: child.data, children: child.children, options: options, settings: settings}"/>
+							</div>	
+	                    </f:for>
+                    </div>
+
+                </f:if> 
+            </f:for>
+
+
+		    <!-- Left and right controls -->
+			<f:if condition="{data.flexform_directionNav}">    
+		    	<a class="carousel-control-prev" href="#slideshow{data.uid}" data-bs-target="#slideshow{data.uid}" type="button" data-slide="prev"  data-bs-slide="prev">
+                   <span class="prev">&#xF104</span>
+                   <span class="visually-hidden">Previous</span>
+				    </a>
+		    	<a class="carousel-control-next" href="#slideshow{data.uid}" data-bs-target="#slideshow{data.uid}" type="button" data-slide="next" data-bs-slide="next"   >
+                  <span class="next">&#xF105</span>
+                  <span class="visually-hidden">Next</span>
+			    </a>
+			</f:if>     
+		</div>
+
+	</f:section>
+
+</html>

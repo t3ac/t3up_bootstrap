@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.sheet.layout</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <style type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:grid.label.style</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:accordion.stil1</numIndex>
+                                        <numIndex index="1">accordion-v1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:accordion.stil2</numIndex>
+                                        <numIndex index="1">accordion-v2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang_flexform.xlf:accordion.stil3</numIndex>
+                                        <numIndex index="1">accordion-v3</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </style>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

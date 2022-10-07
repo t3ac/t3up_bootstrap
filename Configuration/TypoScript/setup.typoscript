@@ -1,0 +1,102 @@
+
+# Assign grid rendering to layout ids (names)
+
+ lib.contentElement {
+    templateRootPaths {
+        13 = EXT:t3up_bootstrap/Resources/Private/Templates/
+    }
+    partialRootPaths {
+        13 = EXT:t3up_bootstrap/Resources/Private/Partials/
+    }         
+}
+ 
+
+tt_content.gridelements_pi1.20.10.setup {
+    2cols < lib.gridelements.defaultGridSetup
+    2cols {
+        cObject = FLUIDTEMPLATE
+        cObject {
+            file = {$plugin.t3upbootstrap.templates}2cols.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+    3cols < lib.gridelements.defaultGridSetup
+    3cols {
+        cObject = FLUIDTEMPLATE
+        cObject {
+            file = {$plugin.t3upbootstrap.templates}3cols.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+    4cols < lib.gridelements.defaultGridSetup
+    4cols {
+        cObject = FLUIDTEMPLATE
+        cObject {
+            file = {$plugin.t3upbootstrap.templates}4cols.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+    contentslider < lib.gridelements.defaultGridSetup
+    contentslider {
+        cObject = FLUIDTEMPLATE
+        cObject{
+            file = {$plugin.t3upbootstrap.templates}Contentslider.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+    
+    accordion < lib.gridelements.defaultGridSetup
+    accordion {
+        cObject = FLUIDTEMPLATE
+        cObject{
+            file = {$plugin.t3upbootstrap.templates}Accordion.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+            variables {
+                accordeon < lib.accordeon
+            }
+        }
+
+    }
+    tabs < lib.gridelements.defaultGridSetup    
+    tabs {
+        cObject = FLUIDTEMPLATE
+        cObject {
+            file = {$plugin.t3upbootstrap.templates}Tabs.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+    container < lib.gridelements.defaultGridSetup
+    container {
+        cObject = FLUIDTEMPLATE
+        cObject {
+            file = {$plugin.t3upbootstrap.templates}Container.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+    2tabs < lib.gridelements.defaultGridSetup
+    2tabs {
+        cObject = FLUIDTEMPLATE
+        cObject {
+            file = {$plugin.t3upbootstrap.templates}2tabs.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+    3tabs < lib.gridelements.defaultGridSetup
+    3tabs {
+        cObject = FLUIDTEMPLATE
+        cObject {
+            file = {$plugin.t3upbootstrap.templates}3tabs.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+    4tabs < lib.gridelements.defaultGridSetup
+    4tabs {
+        cObject = FLUIDTEMPLATE
+        cObject {
+            file = {$plugin.t3upbootstrap.templates}4tabs.html
+            partialRootPath = {$plugin.t3upbootstrap.partials}
+        }
+    }
+}
+
+ 

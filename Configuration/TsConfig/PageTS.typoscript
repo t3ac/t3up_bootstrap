@@ -1,0 +1,261 @@
+tx_gridelements {
+	overruleRecords = 1
+	setup{
+		2cols {
+		  	title 			= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.col2.title
+			description 	= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.col2.description
+			flexformDS 		= FILE:EXT:t3up_bootstrap/Configuration/Flexforms/2col.xml 
+		    icon 			= EXT:t3up_bootstrap/Resources/Public/Icons/gridlayout_col2.svg
+			frame 			= 3
+            topLevelLayout 	= 0
+			config {
+				colCount = 2
+				rowCount = 1
+				rows {
+					1 {
+						columns {
+							1 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col1
+								colPos = 101
+							}
+							2 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col2
+								colPos = 102
+							}
+						}
+					}
+				}
+			}
+		} // 2cols 
+
+
+		3cols {
+			title 			= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.col3.title
+			description 	= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.col3.description
+			flexformDS 		= FILE:EXT:t3up_bootstrap/Configuration/Flexforms/3col.xml
+			icon 			= EXT:t3up_bootstrap/Resources/Public/Icons/gridlayout_col3.svg
+			frame 			= 3
+            topLevelLayout 	= 0
+			config {
+				colCount = 3
+				rowCount = 1
+				rows {
+					1 {
+						columns {
+							1 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col1
+								colPos = 101
+							}
+							2 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col2
+								colPos = 102
+							}
+							3 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col3
+								colPos = 103
+							}
+						}
+					}
+				}
+			}
+		} // 3cols 
+	
+		4cols {
+			title 			= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.col4.title
+			description 	= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.col4.description
+			flexformDS  	= FILE:EXT:t3up_bootstrap/Configuration/Flexforms/4col.xml
+			icon 			= EXT:t3up_bootstrap/Resources/Public/Icons/gridlayout_col4.svg
+			frame 			= 3
+            topLevelLayout 	= 0
+			config {
+				colCount = 4
+				rowCount = 1
+				rows {
+					1 {
+						columns {
+							1 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col1
+								colPos = 101
+							}
+							2 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col2
+								colPos = 102
+							}
+							3 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col3
+								colPos = 103
+							}
+							4 {
+								name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col4
+								colPos = 104
+							}
+						}
+					}
+				}
+			}
+		} // 4cols 
+		
+        tabs {
+            title 			= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tab.title
+            description 	= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tab.description
+            icon 			= EXT:t3up_bootstrap/Resources/Public/Icons/grid_tabs.svg
+            frame 			= 2
+            topLevelLayout 	= 0
+            config {
+                colCount = 1
+                rowCount = 1
+                rows.1.columns.1 {
+                    name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tabElements
+                    colPos = 101
+                }
+            }
+        } // tabs
+
+        2tabs {
+            title           = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tab2.title
+            description     = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tab2.description
+            flexformDS      = FILE:EXT:t3up_bootstrap/Configuration/Flexforms/2tabs.xml 
+            icon            = EXT:t3up_bootstrap/Resources/Public/Icons/grid_tab2.svg
+            frame           = 3
+            topLevelLayout  = 0
+            config {
+                colCount = 2
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col1
+                                colPos = 101
+                            }
+                            2 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col2
+                                colPos = 102
+                            }
+                        }
+                    }
+                }
+            }
+        } // 2tabs 
+        
+        3tabs {
+            title           = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tab3.title
+            description     = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tab3.description
+            flexformDS      = FILE:EXT:t3up_bootstrap/Configuration/Flexforms/3tabs.xml 
+            icon            = EXT:t3up_bootstrap/Resources/Public/Icons/grid_tab3.svg
+            frame           = 3
+            topLevelLayout  = 0
+            config {
+                colCount = 3
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col1
+                                colPos = 101
+                            }
+                            2 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col2
+                                colPos = 102
+                            }
+                            3 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col3
+                                colPos = 103
+                            }                            
+                        }
+                    }
+                }
+            }
+        } // 3tabs 
+        
+        4tabs {
+            title           = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tab4.title
+            description     = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:tab4.description
+            flexformDS      = FILE:EXT:t3up_bootstrap/Configuration/Flexforms/4tabs.xml 
+            icon            = EXT:t3up_bootstrap/Resources/Public/Icons/grid_tab4.svg
+            frame           = 3
+            topLevelLayout  = 0
+            config {
+                colCount = 4
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col1
+                                colPos = 101
+                            }
+                            2 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col2
+                                colPos = 102
+                            }
+                            3 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col3
+                                colPos = 103
+                            }   
+                            4 {
+                                name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:col.name.col4
+                                colPos = 104
+                            }                               
+                        }
+                    }
+                }
+            }
+        } // 4tabs 
+    
+   
+        accordion {
+            title 			= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:accordion.title
+            description 	= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:accordion.description
+            icon 			= EXT:t3up_bootstrap/Resources/Public/Icons/grid_accordion.svg
+            flexformDS  	= FILE:EXT:t3up_bootstrap/Configuration/Flexforms/accordion.xml    
+            frame           = 2
+            topLevelLayout  = 0
+            config {
+                colCount = 1
+                rowCount = 1
+                rows.1.columns.1 {
+                    name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:accordionElements
+                    colPos = 101
+                }
+            }
+        } // accordion
+        
+        contentslider {
+            title 			= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:slider.title
+            description 	= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:slider.description
+            icon 			= EXT:t3up_bootstrap/Resources/Public/Icons/grid_slider.svg
+            flexformDS  	= FILE:EXT:t3up_bootstrap/Configuration/Flexforms/slider.xml    
+            frame           = 2
+            topLevelLayout  = 0
+            config {
+                colCount = 1
+                rowCount = 1
+                rows.1.columns.1 {
+                    name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:sliderElements
+                    colPos = 101
+                }
+            }
+        } // contentslider
+           
+        container {
+            title 			= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:container.title
+            description 	= LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:container.description
+            icon 			= EXT:t3up_bootstrap/Resources/Public/Icons/grid_container.svg
+            flexformDS  	= FILE:EXT:t3up_bootstrap/Configuration/Flexforms/container.xml  
+            frame           = 1
+            topLevelLayout  = 0
+            config {
+                colCount = 1
+                rowCount = 1
+                rows.1.columns.1 {
+                    name = LLL:EXT:t3up_bootstrap/Resources/Private/Language/locallang.xlf:containerElements
+                    colPos = 101
+                }
+            }
+        } // container
+        
+       
+	} // setup
+}

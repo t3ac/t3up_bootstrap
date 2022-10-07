@@ -1,0 +1,7 @@
+plugin.t3upbootstrap {  
+      # cat=T3up: Bootstrap//; type=string; label=Partials path
+      partials = EXT:t3up_bootstrap/Resources/Private/Partials/   
+      # cat=T3up: Bootstrap//; type=string; label=Templates path
+      templates = EXT:t3up_bootstrap/Resources/Private/Templates/    
+      
+}
