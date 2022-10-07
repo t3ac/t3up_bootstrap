@@ -23,7 +23,7 @@
     }
   ],
   "require": {
-	  "t3ac/t3up_bootstrap": "*"
+	  "t3ac/t3up_bootstrap": "dev-main"
   },
   "autoload": {
     "psr-4": {
@@ -35,4 +35,5 @@
       "extension-key": "t3up_bootstrap"
     }
   }
+  "minimum-stability": "dev"
 }
