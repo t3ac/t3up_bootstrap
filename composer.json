@@ -18,8 +18,8 @@
   ],
   "repositories": [
     {
-	"type": "vcs",
-	"url" : "https://github.com/t3ac/t3up_bootstrap.git"
+	    "type": "vcs",
+	    "url" : "https://github.com/t3ac/t3up_bootstrap.git"
     }
   ],
   "require": {
